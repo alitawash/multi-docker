@@ -1,0 +1,10 @@
+FROM golang:1.14.6
+ENV PORT=3000
+EXPOSE $PORT
+WORKDIR '/server'
+COPY . .
+RUN go get -u github.com/gorilla/mux
+RUN go get -u github.com/pilu/fresh
+# RUN go build 
+# CMD ["./server"]
+CMD ["fresh"]
