@@ -1,1 +1,1 @@
-A Starter Project with different technology (Client: Angular, API: Hasura, Server: Go,Database: Postgres, Static file server: Nginx)
+A Starter Project with different technology (Client: Angular, API: Hasura, Server: Go, Database: Postgres, Static file server: Nginx)
